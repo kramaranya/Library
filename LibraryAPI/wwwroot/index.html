@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Library</title>
+</head>
+<body>
+<div class="authors">
+    
+</div>
+<div class="genres">
+    
+</div>
+<div class="container">
+    <div class="form-wrapper">
+        <form class="register-form" id="regform">
+            <input type="text" id="name" placeholder="Name" />
+            <input type="text" id="surname" placeholder="Surname" />
+            <input type="text" id="user_name" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password" />
+            <input type="text" id="phone_number" placeholder="Phone Number" />
+            <input type="date" id="date_of_birth" placeholder="Date of Birth" />
+            <input type="submit" value="Register" id="submit" />
+        </form>
+        <form class="login-form unactive" id="logform">
+            <input type="text" id="user_name_login" placeholder="Username" />
+            <input type="password" id="password_login" placeholder="Password" />
+            <input type="submit" value="Login" id="submit_login" />
+        </form>
+        <div class="log-btns">
+            <button id="log" class="btn btn-log ">Already have an account? Login</button>
+            <button id="reg" class="btn btn-reg hidden">Do not have an account? Register</button>
+        </div>
+    </div>
+</div>
+
+<div class="users hidden">
+</div>
+
+<div class="books hidden">
+</div>
+<div class="manage-buttons-wrapper hidden">
+    <button id="books-button">BOOKS</button>
+    <button id="genres-button">GENRES</button>
+    <button id="authors-button">AUTHORS</button>
+    <button id="my-profile-button" class="red">MY PROFILE</button>
+    <button id="logout" class="red">LOGOUT</button>
+</div>
+<!--<div class="books-button hidden">
+
+</div>-->
+<div class="genres-button hidden">
+
+</div>
+<div class="authors-button hidden">
+
+</div>
+<div class="users-button hidden">
+
+</div>
+<div class="books-button hidden">
+
+</div>
+<div class="books-genres hidden">
+
+</div>
+<div class="books-authors hidden">
+
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
